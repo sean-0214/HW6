@@ -1,11 +1,12 @@
 # EF4820 Assignment 6 (Numerical Methods) — Clean Python Repo
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/aac52cfb-8df2-4f4e-a65b-4edaa62f3b5c" />
 
-This repository reproduces the *course-style* numerical-method workflow for EF4820 Assignment 6 Problems **9.6, 9.8, 9.11, 10.1, 10.2, 10.3**.
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/eeb2bd03-d971-42ad-9a86-c9be1dece6de" />
 
-It is based on the same intended solution flow as the provided `HW6_Python.py` reference, but written with slightly cleaned up structure and original parameter naming.
+ Assignment 6 Problems **9.6, 9.8, 9.11, 10.1, 10.2, 10.3**.
 
-## Problem map
-
+ 
+## Problem  
 - **Q9.6** `src/q96_basket_mc.py`  
   Monte Carlo pricing of a **European basket call** (plain MC + **antithetic variates**) using **Cholesky** to generate correlated shocks.
 
@@ -60,8 +61,4 @@ python scripts/run_all.py
 pytest -q
 ```
 
-## Notes on “faithful but cleaned up”
-
-- The Monte Carlo questions keep the same structure as the assignment flow: simulate correlated GBM terminal prices (or paths), compute discounted payoffs/costs, report **estimate + standard error**.
-- The PDE questions follow the same *helper-style* CN logic (log-space grid, coefficient construction, backward stepping, and a tridiagonal solver), rather than introducing a different PDE framework.
-- Code is modular enough to read question-by-question, but not abstracted into a large library.
+ 
